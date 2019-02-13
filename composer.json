@@ -1,0 +1,39 @@
+{
+    "name": "payu/magento23-payment-gateway",
+    "description": "Official PayU integration plugin for Magento 2.3",
+    "keywords": [
+        "payu",
+        "payu easy and plus merchant",
+        "payment processing",
+        "payment module",
+        "payu magento 2.3 module",
+        "payu magento 2.3"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "magento/framework": "102.0.*",
+        "magento/module-sales": "102.0.*",
+        "magento/module-checkout": "100.3.*",
+        "magento/module-payment": "100.3.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PayU\\PaymentGateway\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "PayU S.A.",
+            "homepage": "https://payu.pl/"
+        }
+    ]
+}
