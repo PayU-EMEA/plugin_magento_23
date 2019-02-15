@@ -49,7 +49,7 @@ Moduł dodaje dwie metody płatności:
 ## Instalacja
 
 #### Przy użyciu Composer
-`composer require payu/magento2-payment-gateway`
+`composer require payu/magento23-payment-gateway`
 
 #### Kopiując pliki na serwer
 1. Pobierz najnowszą wersję moduł z [repozytorium GitHub][ext4]
