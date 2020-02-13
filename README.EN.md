@@ -1,25 +1,25 @@
 [**Wersja polska**][ext8]
 
-# Moduł PayU dla Magento 2 w wersji 2.3
+# PayU module for Magento 2 version 2.3
 `The module is issued under GPL license.`
 
 **If you have any questions or if you want to report an error, please contact our support at the address: tech@payu.pl.**
 
-* •	If you are using Magento version 1.x, please use a [plugin for version 1.x][ext0]
-* •	If you are using Magento version >2.0.6, 2.1, 2.2, please use a [plugin for version >2.0.6, 2.1, 2.2 ][ext7]
+* If you are using Magento version 1.x, please use a [plugin for version 1.x][ext0]
+* If you are using Magento version >2.0.6, 2.1, 2.2, please use a [plugin for version >2.0.6, 2.1, 2.2 ][ext7]
 
 ## Table of contents
 
-1. [Properties](#cechy)
-1. [Requirements](#wymagania)
-1. [Installation](#instalacja)
-1. [Configuration](#konfiguracja)
-    * [Parameters](#parametry)
-1. [Information about properties](#informacje-o-cechach)
-    * [Order of payment methods](#kolejność-metod-płatności)
-    * [Repeat payment](#ponowienie-płatności)
-    * [Saving card](#zapisywanie-kart)
-    * [Conversion](#przewalutowanie)
+1. [Properties](#properties)
+1. [Requirements](#requirements)
+1. [Installation](#installation)
+1. [Configuration](#configuration)
+    * [Parameters](#parameters)
+1. [Information about properties](#information-about-properties)
+    * [Order of payment methods](#order-of-payment-methods)
+    * [Repeat payment](#repeat-payment)
+    * [Saving card](#saving-card)
+    * [Conversion](#conversion)
 
 
 ## Properties
@@ -39,12 +39,12 @@ The following operations are possible:
 The module adds two payment methods:
 
 ![methods][img0]
-  * **•	PayU payment** - selection of payment method and redirection a bank or card form
-  * **•	Card payment** - entry of the card number directly on the store's website and payment by card
+  * **PayU payment** - selection of payment method and redirection a bank or card form
+  * **Card payment** - entry of the card number directly on the store's website and payment by card
 
 ## Requirements
 
-**Important:** The module works only with the REST API (Checkout) POS, if you don't have an account in the PayU system yet, [**register yourself in the production system **][ext1] or [**in the sandbox system**][ext5]
+**Important:** The module works only with the REST API (Checkout) POS, if you don't have an account in the PayU system yet, [**register yourself in the production system**][ext1] or [**in the sandbox system**][ext5]
 
 * PHP compliant with the requirements of the installed version of Magento 2
 * PHP extension: [cURL][ext2] and [hash][ext3].
@@ -71,7 +71,7 @@ After installation using Composer or copying files from the console's level, run
 1. Go to **Stores** > **Configuration**.
 1. On the **Configuration** page in the menu on the left-hand side, in the section **Sales** choose **Payment Methods**.
 1. On the list of available payment methods choose  **PayU** or **PayU - Cards** to configure the plugin's parameters.
-1. After changing the parameters click  `Save config`.
+1. After changing the parameters click `Save config`.
 
 ### Parameters
 
@@ -81,7 +81,7 @@ After installation using Composer or copying files from the console's level, run
 |---------|-----------|
 | Activate the plugin? | Determines whether the payment method will be available in the store on the list of payments. |
 | Sandbox mode | Determines whether payments will be performed in PayU (sandbox) test environment. |
-| Order of payment methods | Determines the order of the payment methods being displayed (available only for `Płatność PayU`) [more information](#kolejność-metod-płatności). |
+| Order of payment methods | Determines the order of the payment methods being displayed (available only for `Płatność PayU`) [more information](#order-of-payment-methods). |
 
 #### Point of sale (POS) parameters
 
@@ -106,9 +106,9 @@ Available when the parameter `Test Mode (Sandbox)` is set for `Yes`.
 
 | Parameter | Description |
 |---------|-----------|
-| Activate repeat payment? | [more information](#ponowienie-płatności) |
-| Activate remembering of cards? | Available only for  `Card payment` [more information](#zapisywanie-kart) |
-| Czy uaktywnić moduł przewalutowania? | Available only for `Card payment` [more information](#przewalutowanie) |
+| Activate repeat payment? | [more information](#repeat-payment) |
+| Activate remembering of cards? | Available only for  `Card payment` [more information](#saving-cards) |
+| Czy uaktywnić moduł przewalutowania? | Available only for `Card payment` [more information](#conversion) |
 
 
 ## Information about properties
@@ -127,7 +127,7 @@ Repeat payment from the buyer's point of view is also possible through the list 
 The buyer will also automatically receive an e-mail with such link. 
 Thus, the buyer is able to successfully pay for his order even if the first payment was unsuccessful (for instance, no funds on the card, problems logging in to the bank, etc.).
 
-### Saving card
+### Saving cards
 Saving card allows logged in users to remember the card for future payments. 
 Each such remembered card is "tokenized", however, Magento does not process the card's full details in any way (they are entered using an embedded widget hosted by PayU) and does not save card tokens in its database (before use, current tokens for the given user are always downloaded from PayU).
 
