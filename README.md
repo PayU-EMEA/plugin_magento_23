@@ -1,3 +1,5 @@
+[**English version**][ext8]
+
 # Moduł PayU dla Magento 2 w wersji 2.3
 ``Moduł jest wydawany na licencji GPL.``
 
@@ -158,6 +160,7 @@ W celu uruchomienia i konfiguracji usługi należy skontaktować się z opiekune
 [ext5]: https://secure.snd.payu.com/boarding/?pk_campaign=Plugin-Github&pk_kwd=Magento2#/form
 [ext6]: http://developers.payu.com/pl/overview.html#paymethods
 [ext7]: https://github.com/PayU/plugin_magento_2
+[ext8]: README.EN.md
 
 <!--images:-->
 [img0]: readme_images/methods.png
