@@ -18,7 +18,7 @@
 1. [Information about properties](#information-about-properties)
     * [Order of payment methods](#order-of-payment-methods)
     * [Repeat payment](#repeat-payment)
-    * [Saving card](#saving-card)
+    * [Saving card](#saving-cards)
     * [Conversion](#conversion)
 
 
@@ -92,7 +92,7 @@ After installation using Composer or copying files from the console's level, run
 | OAuth - client_id | client_id for OAuth protocol from PayU system |
 | OAuth - client_secret | client_secret for OAuth from PayU system |
 
-#### POS parameters - Test mode (Sandbox))
+#### POS parameters - Test mode (Sandbox)
 Available when the parameter `Test Mode (Sandbox)` is set for `Yes`.
 
 | Parameter | Description |
