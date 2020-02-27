@@ -16,7 +16,7 @@
         "AFL-3.0"
     ],
     "require": {
-        "php": "~7.1.0|~7.2.0",
+        "php": ">=7.1",
         "magento/framework": "102.0.*",
         "magento/module-sales": "102.0.*",
         "magento/module-checkout": "100.3.*",
