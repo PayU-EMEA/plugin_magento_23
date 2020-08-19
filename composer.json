@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": ">=7.1",
+        "ext-json": "*",
         "magento/framework": "102.0.*",
         "magento/module-sales": "102.0.*",
         "magento/module-checkout": "100.3.*",
