@@ -1,3 +1,7 @@
+## 1.1.1
+ * Fix show PBL
+ * Add csp_whitelist.xml
+
 ## 1.1.0
  *  Migrate from Widget to Secure Form
 
