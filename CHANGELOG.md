@@ -1,3 +1,6 @@
+## 1.1.2
+ * Fix #13 - create refund and invoice from admin
+
 ## 1.1.1
  * Fix show PBL
  * Add csp_whitelist.xml
