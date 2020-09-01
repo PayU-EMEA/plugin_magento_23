@@ -7,6 +7,7 @@
 
 * If you are using Magento version 1.x, please use a [plugin for version 1.x][ext0]
 * If you are using Magento version >2.0.6, 2.1, 2.2, please use a [plugin for version >2.0.6, 2.1, 2.2 ][ext7]
+* If you are using Magento version 2.4, please use a [plugin for version 2.4][ext9]
 
 ## Table of contents
 
@@ -159,6 +160,7 @@ To activate and configure the service please contact PayU's account manager.
 [ext6]: http://developers.payu.com/pl/overview.html#paymethods
 [ext7]: https://github.com/PayU/plugin_magento_2
 [ext8]: README.md
+[ext9]: https://github.com/PayU/plugin_magento_24
 
 <!--images:-->
 [img0]: readme_images/methods.png

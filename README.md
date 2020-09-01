@@ -7,6 +7,7 @@
 
 * Jeżeli używasz Magneto w wersji 1.x proszę skorzystać z [pluginu dla wersji 1.x][ext0]
 * Jeżeli używasz Magneto w wersji >2.0.6, 2.1, 2.2 proszę skorzystać z [pluginu dla wersji >2.0.6, 2.1, 2.2 ][ext7]
+* Jeżeli używasz Magneto w wersji 2.4 proszę skorzystać z [pluginu dla wersji 2.4][ext9]
 
 ## Spis treści
 
@@ -161,6 +162,7 @@ W celu uruchomienia i konfiguracji usługi należy skontaktować się z opiekune
 [ext6]: http://developers.payu.com/pl/overview.html#paymethods
 [ext7]: https://github.com/PayU/plugin_magento_2
 [ext8]: README.EN.md
+[ext9]: https://github.com/PayU/plugin_magento_24
 
 <!--images:-->
 [img0]: readme_images/methods.png
