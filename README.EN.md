@@ -6,7 +6,7 @@
 **If you have any questions or if you want to report an error, please contact our support at the address: tech@payu.pl.**
 
 * If you are using Magento version 1.x, please use a [plugin for version 1.x][ext0]
-* If you are using Magento version >2.0.6, 2.1, 2.2, please use a [plugin for version >2.0.6, 2.1, 2.2 ][ext7]
+* If you are using Magento version >2.0.6, 2.1, 2.2, please use a [plugin for version >2.0.6, 2.1, 2.2][ext7]
 * If you are using Magento version 2.4, please use a [plugin for version 2.4][ext9]
 
 ## Table of contents
@@ -151,16 +151,16 @@ To activate and configure the service please contact PayU's account manager.
 
 
 <!--external links:-->
-[ext0]: https://github.com/PayU/plugin_magento_160
+[ext0]: https://github.com/PayU-EMEA/plugin_magento
 [ext1]: https://www.payu.pl/en/commercial-offer
 [ext2]: http://php.net/manual/en/book.curl.php
 [ext3]: http://php.net/manual/en/book.hash.php
-[ext4]: https://github.com/PayU/plugin_magento_2/releases/latest
+[ext4]: https://github.com/PayU-EMEA/plugin_magento_23/releases/latest
 [ext5]: https://secure.snd.payu.com/boarding/?pk_campaign=Plugin-Github&pk_kwd=Magento2#/form
 [ext6]: http://developers.payu.com/pl/overview.html#paymethods
-[ext7]: https://github.com/PayU/plugin_magento_2
+[ext7]: https://github.com/PayU-EMEA/plugin_magento_2
 [ext8]: README.md
-[ext9]: https://github.com/PayU/plugin_magento_24
+[ext9]: https://github.com/PayU-EMEA/plugin_magento_24
 
 <!--images:-->
 [img0]: readme_images/methods.png

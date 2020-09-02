@@ -6,7 +6,7 @@
 **Jeżeli masz jakiekolwiek pytania lub chcesz zgłosić błąd zapraszamy do kontaktu z naszym wsparciem pod adresem: tech@payu.pl.**
 
 * Jeżeli używasz Magneto w wersji 1.x proszę skorzystać z [pluginu dla wersji 1.x][ext0]
-* Jeżeli używasz Magneto w wersji >2.0.6, 2.1, 2.2 proszę skorzystać z [pluginu dla wersji >2.0.6, 2.1, 2.2 ][ext7]
+* Jeżeli używasz Magneto w wersji >2.0.6, 2.1, 2.2 proszę skorzystać z [pluginu dla wersji >2.0.6, 2.1, 2.2][ext7]
 * Jeżeli używasz Magneto w wersji 2.4 proszę skorzystać z [pluginu dla wersji 2.4][ext9]
 
 ## Spis treści
@@ -153,16 +153,16 @@ W celu uruchomienia i konfiguracji usługi należy skontaktować się z opiekune
 
 
 <!--external links:-->
-[ext0]: https://github.com/PayU/plugin_magento_160
+[ext0]: https://github.com/PayU-EMEA/plugin_magento
 [ext1]: https://www.payu.pl/oferta-handlowa
 [ext2]: http://php.net/manual/en/book.curl.php
 [ext3]: http://php.net/manual/en/book.hash.php
-[ext4]: https://github.com/PayU/plugin_magento_2/releases/latest
+[ext4]: https://github.com/PayU-EMEA/plugin_magento_23/releases/latest
 [ext5]: https://secure.snd.payu.com/boarding/?pk_campaign=Plugin-Github&pk_kwd=Magento2#/form
 [ext6]: http://developers.payu.com/pl/overview.html#paymethods
-[ext7]: https://github.com/PayU/plugin_magento_2
+[ext7]: https://github.com/PayU-EMEA/plugin_magento_2
 [ext8]: README.EN.md
-[ext9]: https://github.com/PayU/plugin_magento_24
+[ext9]: https://github.com/PayU-EMEA/plugin_magento_24
 
 <!--images:-->
 [img0]: readme_images/methods.png
