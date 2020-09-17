@@ -101,7 +101,7 @@ class GetNotify extends Action implements CsrfAwareActionInterface
      */
     private function getPaymentId($response)
     {
-        if (isset($response->properties)) {
+        if ($response->properties && is_array($response->properties)) {
             foreach ($response->properties as $property) {
                 if ($property->name === 'PAYMENT_ID') {
                     return $property->value;
