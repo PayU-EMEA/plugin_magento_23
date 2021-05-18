@@ -1,3 +1,8 @@
+## 1.1.4
+* Update OpenPayU
+* Fix doubles PENDING status
+* Set correct state after place order
+
 ## 1.1.3
  * Remove Apple Pay when not available
 
