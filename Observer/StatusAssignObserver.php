@@ -5,6 +5,7 @@ namespace PayU\PaymentGateway\Observer;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
+use Magento\Sales\Model\Order;
 
 /**
  * Class DataAssignObserver
@@ -42,7 +43,7 @@ class StatusAssignObserver implements ObserverInterface
         /** @var \Magento\Sales\Model\Order\Payment $payment */
         $payment = $observer->getData('payment');
         $order = $payment->getOrder();
-        $order->setState(static::STATUS_PENDING)->setStatus(static::STATUS_PENDING);
+        $order->setState(Order::STATE_NEW)->setStatus(static::STATUS_PENDING);
         $this->orderRepository->save($order);
     }
 }
