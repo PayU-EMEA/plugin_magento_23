@@ -1,4 +1,5 @@
 [**English version**][ext8]
+# Uwaga: Ta wtyczka dla Magento 2 w wersji 2.3 została zarchiwizowana i nie jest już wspierana
 
 # Moduł PayU dla Magento 2 w wersji 2.3
 ``Moduł jest wydawany na licencji GPL.``

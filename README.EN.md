@@ -1,4 +1,5 @@
 [**Wersja polska**][ext8]
+# Warning: This plugin for  Magento 2 version 2.3 has been archived, it’s no longer maintained
 
 # PayU module for Magento 2 version 2.3
 `The module is issued under GPL license.`
